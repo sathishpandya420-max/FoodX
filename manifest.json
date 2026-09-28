@@ -1,0 +1,9 @@
+{
+  "name": "FoodX - Food Delivery",
+  "short_name": "FoodX",
+  "start_url": "food.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc3545",
+  "description": "FoodX food delivery app"
+}

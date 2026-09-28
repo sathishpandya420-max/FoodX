@@ -1,0 +1,275 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* HERO */
+
+.hero {
+    padding-top: 100px;
+    min-height: 90vh;
+
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #fff1f1
+    );
+
+    display: flex;
+    align-items: center;
+}
+
+
+.food-hero-icon {
+    font-size: 220px;
+    color: #dc3545;
+}
+
+
+/* SEARCH */
+
+.search-box {
+    max-width: 650px;
+}
+
+.search-box .form-control {
+    height: 55px;
+}
+
+
+/* CATEGORIES */
+
+.section-title {
+    text-align: center;
+}
+
+.category-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 30px 10px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.category-card:hover {
+
+    transform: translateY(-7px);
+
+}
+
+.category-card i {
+
+    font-size: 45px;
+
+    color: #dc3545;
+
+}
+
+.category-card h5 {
+
+    margin-top: 15px;
+
+}
+
+
+/* FOOD CARD */
+
+.food-card {
+
+    border: none;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+}
+
+.food-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+.food-image {
+
+    height: 180px;
+
+    background: #ffe3e3;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 75px;
+
+    color: #dc3545;
+
+}
+
+
+/* FEATURES */
+
+.feature-icon {
+
+    font-size: 45px;
+
+    color: #dc3545;
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .food-hero-icon {
+
+        font-size: 130px;
+
+        margin-top: 40px;
+
+    }
+
+    .display-3 {
+
+        font-size: 2.5rem;
+
+    }
+
+}
+/* ================= MOBILE APP STYLE ================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar-brand {
+        font-size: 24px !important;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0 !important;
+    }
+
+    /* Hero */
+    .hero {
+        padding-top: 110px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        line-height: 1.15;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .food-hero-icon {
+        margin-top: 30px;
+    }
+
+    /* Search */
+    .search-box .input-group {
+        flex-wrap: nowrap;
+    }
+
+    .search-box input {
+        min-width: 0;
+    }
+
+    .search-box button {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    /* Categories */
+    #categories {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .category-card {
+        padding: 20px 10px;
+        border-radius: 16px;
+    }
+
+    /* Food cards */
+    #foodContainer {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #foodContainer .card {
+        border-radius: 18px;
+        overflow: hidden;
+    }
+
+    /* Modals */
+    .modal-dialog {
+        margin: 10px;
+    }
+
+    .modal-content {
+        border-radius: 18px;
+    }
+
+    /* Cart */
+    #cartItems {
+        max-height: 55vh;
+        overflow-y: auto;
+    }
+
+    /* Footer */
+    footer {
+        padding-bottom: 30px !important;
+    }
+}
+
+
+/* ================= EXTRA SMALL PHONES ================= */
+
+@media (max-width: 400px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .search-box button {
+        font-size: 14px;
+    }
+
+    .category-card h5 {
+        font-size: 15px;
+    }
+
+}
